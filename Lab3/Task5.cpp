@@ -11,7 +11,6 @@ class MATRIX{
             cout<<"\n";
             for(int i=0; i<3;i++){
                 for (int j=0;j<3;j++){
-                    //mat1[i][j]=b[i][j];
                     cout<<"Matrix["<<i+1<<"]["<<j+1<<"] : ";
                     cin>>mat1[i][j];
                 }

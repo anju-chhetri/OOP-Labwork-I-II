@@ -20,5 +20,5 @@ int main(){
     COMPLEX c1,c2;
     c1.ask();
     c2.ask();
-    c1+c2; //c1.operator+(c2)
+    c1+c2; //operator+(c1,c2)
 }
