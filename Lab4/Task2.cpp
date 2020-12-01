@@ -21,7 +21,7 @@ using namespace std;
 int a,b;
 cout<<"Enter the distance in foot and inch : ";
 cin>>a>>b;
- CONVERSION c1(a,b); //c1=12,3
+ CONVERSION c1(a,b); 
  float n=float(c1); //c1.operator float()
  cout<<"The result is : "<<n;
  }

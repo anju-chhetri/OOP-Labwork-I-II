@@ -23,7 +23,7 @@ class SOURCE{
     SOURCE(float a,float b){
         x=a;
         y=b;
-        cout<<"The co-ordinate ia : ("<<x<<" , "<<y<<")";
+        cout<<"The co-ordinate is : ("<<x<<" , "<<y<<")";
     }
     operator DESTINATION(){
         float t=atan(y/x);
@@ -35,5 +35,5 @@ class SOURCE{
 int main(){
     SOURCE s(20,30);
     DESTINATION d;
-    d=s;
+    d=s;//d=s.operator DESTINATION()
 }

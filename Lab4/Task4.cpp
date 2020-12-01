@@ -42,5 +42,5 @@ class DESTINATION{
 int main(){
     SOURCE s(20,30);
     DESTINATION d;
-    d=s;//d.DESTINATION(s)
+    d=s;//DESTINATION(s)
 }
